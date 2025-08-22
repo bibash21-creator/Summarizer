@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+python-pptx
+PyMuPDF
+pytesseract
+Pillow
+opencv-python
+PyPDF2
