@@ -3,7 +3,9 @@ from transformers import pipeline
 from PyPDF2 import PdfReader
 
 # Load summarization model
-summarizer = pipeline("summarization")
+summarizer = pipeline("summarization",
+                     model="facebook/bart-large-cnn",
+                     revision="main")
 
 # 📄 Extract text from PDF
 def extract_text_from_pdf(uploaded_file):
